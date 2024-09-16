@@ -1,5 +1,5 @@
 # duck-counter
-Duck Counter App
+
 Duck Counter App is a duck-counting application for monitoring ducks on a lake, built with HTML, CSS, and JavaScript. 
 It provides an easy way to track the number of ducks in real time.
 
