@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Verdana;
+    color:blue;
+   
+}
+body {
+    background-image: url(Sjö-20240427.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background:rgb(220, 223, 223);
+    max-width: 80%;
+    margin:auto;
+    border:3px solid darkblue;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(4, 77, 77);
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+#welcome-el {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+button {
+    border: 3px solid darkblue;
+    padding-top: 10px;  /* Ger utrymme inuti knappen */
+    padding-bottom: 10px;  /* Ger utrymme inuti knappen */
+    color:rgb(3, 34, 61);
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: inline-block;/* Gör knappen inline-block så vi kan använda text-align */
+    text-align: center;  /* Centrerar texten horisontellt */
+    line-height: 1.5;
+    cursor:pointer;
+    
+       
+}
+#increment-btn {
+    background-color: rgb(167, 211, 218);
+    
+}
+#increment-btn:hover {
+    background-color: darkgray;
+}
+
+#save-btn:hover{
+    background-color: rgb(10, 84, 84);
+    color: crimson;
+}
+
+#save-btn {
+    background-color: rgb(182, 221, 231);
+}
+.save-el {
+    font-weight: bold;
+    color:rgb(19, 126, 5);
+    padding: 20px 20px;
+}
